@@ -18,6 +18,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       staticData,
     },
+    revalidate: 10 // Revalida a página cada hora
   };
 };
 
