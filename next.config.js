@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     domains: ['store.storeimages.cdn-apple.com'],
   },
+  experimental: {
+    newNextLinkBehavior: false,
+  },
 };
 
 module.exports = nextConfig;
